@@ -39,5 +39,5 @@ func main() {
 	route = routerSalesInfo.GetRoute(route, dbLY, db) //銷貨單路由
 	route = routerFile.GetRoute(route, db, dbLY)      //檔案上傳路由
 
-	log.Fatal(http.ListenAndServe("127.0.0.1:8090", route))
+	log.Fatal(http.ListenAndServe("172.29.160.1:8090", route))
 }
