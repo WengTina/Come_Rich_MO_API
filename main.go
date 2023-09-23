@@ -43,5 +43,5 @@ func main() {
 	route = routerFile.GetRoute(route, db, dbLY)      //檔案上傳路由
 	route = routerLogin.GetRoute(route, db)
 	route = routeAccount.GetRoute(route, db)
-	log.Fatal(http.ListenAndServe("192.168.50.254:8090", route))
+	log.Fatal(http.ListenAndServe(" 192.168.0.100:8090", route))
 }
