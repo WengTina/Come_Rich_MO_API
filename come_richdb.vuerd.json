@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -59.33333333333381,
-    "scrollLeft": -161.77777777777865,
-    "zoomLevel": 0.9,
+    "scrollTop": -172.22222222222211,
+    "scrollLeft": -145.7777777777779,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -419,7 +419,7 @@
           "active": false,
           "left": 24,
           "top": 25.9988,
-          "zIndex": 433,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FFBC6B"
@@ -664,9 +664,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 361.7772,
-          "top": 24.889,
-          "zIndex": 429,
+          "left": 348.4442,
+          "top": 17.479,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60,
           "color": "#D2378B"
@@ -861,13 +861,36 @@
               "widthDefault": 60
             },
             "id": "ebee322f-0813-447f-8efd-c678ba18ddd9"
+          },
+          {
+            "name": "SP_NO",
+            "comment": "單據號碼",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "dade0031-15f5-4b4f-85e5-5d6b9616a3d9"
           }
         ],
         "ui": {
           "active": false,
-          "left": 659.1102,
-          "top": 26.6663,
-          "zIndex": 434,
+          "left": 676.1475,
+          "top": 19.9992,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60,
           "color": "#B9ECCCE8"
@@ -1039,82 +1062,42 @@
               "widthDefault": 60
             },
             "id": "4a0844cf-426d-44d8-8256-8702f277d96d"
+          },
+          {
+            "name": "SP_NO",
+            "comment": "單據號碼",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4f1ac7a9-6566-4bfb-96f6-634be8cc41c9"
           }
         ],
         "ui": {
           "active": false,
-          "left": 359.333,
-          "top": 317.9997,
-          "zIndex": 430,
+          "left": 691.4806,
+          "top": 354.3694,
+          "zIndex": 5,
           "widthName": 75.72802734375,
           "widthComment": 60,
           "color": "#FFFFFF"
         },
         "visible": true,
         "id": "8cc68e33-2c09-42eb-bb95-f2f0ffd45fdd"
-      },
-      {
-        "name": "login",
-        "comment": "登入",
-        "columns": [
-          {
-            "name": "account",
-            "comment": "帳號",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "716a76b8-5481-41d7-a7e6-c37aab33e353"
-          },
-          {
-            "name": "password",
-            "comment": "密碼",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "4405a724-a161-4afc-a6b1-cfe7b2a405c6"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 665.1103,
-          "top": 324.8896,
-          "zIndex": 423,
-          "widthName": 60,
-          "widthComment": 60,
-          "color": "#EDD05F"
-        },
-        "visible": true,
-        "id": "68d27d8d-05a6-4e07-b9fd-58e36c86cb91"
       },
       {
         "name": "sales_info",
@@ -1142,29 +1125,6 @@
               "widthDefault": 60
             },
             "id": "590934d3-1df0-498e-99dd-53b766377f90"
-          },
-          {
-            "name": "SP_SLIP_FG",
-            "comment": "單據類型",
-            "dataType": "TEXT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 80.0380859375,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "56b827d4-9f91-4844-a954-46b4cf0b241a"
           },
           {
             "name": "SP_CTNAME",
@@ -1349,13 +1309,59 @@
               "widthDefault": 60
             },
             "id": "f481653f-5312-489c-8d5e-ad263b46f2a9"
+          },
+          {
+            "name": "account_id",
+            "comment": "uuid員工序號",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 64.8798828125,
+              "widthComment": 78.578125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7b93cb9b-d842-435c-8e8d-e6fdafe8b53e"
+          },
+          {
+            "name": "CT_NO",
+            "comment": "客戶號碼",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "70e6f369-80c5-45cf-9279-72925e0628c0"
           }
         ],
         "ui": {
           "active": false,
-          "left": 977.7775,
-          "top": 29.3327,
-          "zIndex": 424,
+          "left": 345.1869,
+          "top": 356.7403,
+          "zIndex": 4,
           "widthName": 60.5380859375,
           "widthComment": 67,
           "color": "#78B7FF"
@@ -1370,6 +1376,111 @@
     "memos": []
   },
   "relationship": {
-    "relationships": []
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "fd267008-cc44-4873-9a8b-8eb72d5f4ccf",
+          "columnIds": [
+            "d7db1cc4-f58d-4be5-8bf6-3af34cfe5966"
+          ],
+          "x": 183.006103515625,
+          "y": 422.9988,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
+          "columnIds": [
+            "7b93cb9b-d842-435c-8e8d-e6fdafe8b53e"
+          ],
+          "x": 345.1869,
+          "y": 503.9903,
+          "direction": "left"
+        },
+        "constraintName": "fk_accounts_to_sales_info",
+        "visible": true,
+        "id": "4a1a5d03-e9c2-430a-a151-1ea49abdd86b"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "12d8d2af-9e7e-4420-a080-cf8c10dd7d9f",
+          "columnIds": [
+            "191d2af5-77d8-4ef8-ad21-c779edc51e89"
+          ],
+          "x": 491.032823046875,
+          "y": 291.479,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
+          "columnIds": [
+            "70e6f369-80c5-45cf-9279-72925e0628c0"
+          ],
+          "x": 417.63611875,
+          "y": 356.7403,
+          "direction": "top"
+        },
+        "constraintName": "fk_customer_to_sales_info",
+        "visible": true,
+        "id": "b960c511-f2e3-4a30-8bf2-5c14397e5a98"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
+          "columnIds": [
+            "590934d3-1df0-498e-99dd-53b766377f90"
+          ],
+          "x": 562.5345562499999,
+          "y": 356.7403,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "8e7604fc-3763-495e-b916-8edd4322229f",
+          "columnIds": [
+            "dade0031-15f5-4b4f-85e5-5d6b9616a3d9"
+          ],
+          "x": 676.1475,
+          "y": 146.7492,
+          "direction": "left"
+        },
+        "constraintName": "fk_sales_info_to_file",
+        "visible": true,
+        "id": "0461cfa8-7b15-4d76-8d27-c58354d9cd40"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
+          "columnIds": [
+            "590934d3-1df0-498e-99dd-53b766377f90"
+          ],
+          "x": 634.9837749999999,
+          "y": 503.9903,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "8cc68e33-2c09-42eb-bb95-f2f0ffd45fdd",
+          "columnIds": [
+            "4f1ac7a9-6566-4bfb-96f6-634be8cc41c9"
+          ],
+          "x": 691.4806,
+          "y": 470.8694,
+          "direction": "left"
+        },
+        "constraintName": "fk_sales_info_to_goods_detail",
+        "visible": true,
+        "id": "b9e52f9a-5e21-47a1-b6af-179671e8a060"
+      }
+    ]
   }
 }
