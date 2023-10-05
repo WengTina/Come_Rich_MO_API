@@ -1,0 +1,1 @@
+drop TABLE manu_order;

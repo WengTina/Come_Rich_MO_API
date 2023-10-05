@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -172.22222222222211,
-    "scrollLeft": -145.7777777777779,
-    "zoomLevel": 1,
+    "scrollTop": -905.6692708333329,
+    "scrollLeft": -770.0026041666665,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -417,9 +417,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 24,
-          "top": 25.9988,
-          "zIndex": 1,
+          "left": 47.8706,
+          "top": 1077.6921,
+          "zIndex": 163,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FFBC6B"
@@ -664,9 +664,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 348.4442,
-          "top": 17.479,
-          "zIndex": 2,
+          "left": 829.2465,
+          "top": 1140.4455,
+          "zIndex": 176,
           "widthName": 60,
           "widthComment": 60,
           "color": "#D2378B"
@@ -888,9 +888,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 676.1475,
-          "top": 19.9992,
-          "zIndex": 3,
+          "left": 643.0788,
+          "top": 763.9979,
+          "zIndex": 173,
           "widthName": 60,
           "widthComment": 60,
           "color": "#B9ECCCE8"
@@ -1089,9 +1089,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 691.4806,
-          "top": 354.3694,
-          "zIndex": 5,
+          "left": 221.1116,
+          "top": 769.5933,
+          "zIndex": 174,
           "widthName": 75.72802734375,
           "widthComment": 60,
           "color": "#FFFFFF"
@@ -1359,15 +1359,394 @@
         ],
         "ui": {
           "active": false,
-          "left": 345.1869,
-          "top": 356.7403,
-          "zIndex": 4,
+          "left": 486.9866,
+          "top": 1131.3338,
+          "zIndex": 175,
           "widthName": 60.5380859375,
           "widthComment": 67,
           "color": "#78B7FF"
         },
         "visible": true,
         "id": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e"
+      },
+      {
+        "name": "manu_order",
+        "comment": "製造指令單",
+        "columns": [
+          {
+            "name": "manu_order_id",
+            "comment": "製令流水號",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 89.4453125,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "10baf785-14ea-413a-8421-49a2f1204d1e"
+          },
+          {
+            "name": "goods_name",
+            "comment": "品名",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.1689453125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "957686d3-99a5-4023-8fe0-2594c98156cd"
+          },
+          {
+            "name": "identifier",
+            "comment": "單據項目識別碼",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 93,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6b742611-79d8-47bb-84b8-3ade8fb42bba"
+          },
+          {
+            "name": "total_quantity",
+            "comment": "總數量",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.33349609375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a92ae744-e6a9-4b74-8775-367806cd8242"
+          },
+          {
+            "name": "completion_date",
+            "comment": "完成日期",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 97.39892578125,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "ced49575-6bba-4184-92b7-95371159e914"
+          },
+          {
+            "name": "date_of_issuance",
+            "comment": "出單日期",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.91162109375,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "7e9ee5c5-bf96-4e81-8ba2-8eadd88d5e8e"
+          },
+          {
+            "name": "created_at",
+            "comment": "創建時間",
+            "dataType": "TIMESTAMP",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 63.4326171875,
+              "widthComment": 60,
+              "widthDataType": 76.87060546875,
+              "widthDefault": 60
+            },
+            "id": "0ce2dd88-b3ff-4289-93da-6265aed15721"
+          },
+          {
+            "name": "updated_at",
+            "comment": "更新時間",
+            "dataType": "TIMESTAMP",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.0634765625,
+              "widthComment": 60,
+              "widthDataType": 76.87060546875,
+              "widthDefault": 60
+            },
+            "id": "8c484da2-c81c-4a74-815d-cb59cd3fd453"
+          },
+          {
+            "name": "is_deleted",
+            "comment": "是否刪除",
+            "dataType": "BOOLEAN",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.26806640625,
+              "widthComment": 60,
+              "widthDataType": 64.8544921875,
+              "widthDefault": 60
+            },
+            "id": "d8a5958a-cd11-43c7-b867-371573f24ef5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1120.3408,
+          "top": 741.0126,
+          "zIndex": 167,
+          "widthName": 72.09716796875,
+          "widthComment": 67,
+          "color": "#E594F3"
+        },
+        "visible": true,
+        "id": "46d37798-167c-4679-9d49-aba71122bd73"
+      },
+      {
+        "name": "raw_material",
+        "comment": "原料項目",
+        "columns": [
+          {
+            "name": "raw_material_id",
+            "comment": "原料流水號",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 93.76171875,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "564e783c-ad65-4028-8ae3-365daef00b1f"
+          },
+          {
+            "name": "material_name",
+            "comment": "原料名稱",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.9853515625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "45779a78-fa33-48ff-b303-8c74cd36ab39"
+          },
+          {
+            "name": "quantity",
+            "comment": "數量",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3c183c7d-621e-40d9-aff7-ce1b9154a45c"
+          },
+          {
+            "name": "percentage",
+            "comment": "百分比",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.05078125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "86fbc97a-cd26-4efc-aa72-da80586be879"
+          },
+          {
+            "name": "remark",
+            "comment": "備註",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c39b8e90-e499-4481-b171-a34d7cfc1663"
+          },
+          {
+            "name": "manu_order_id",
+            "comment": "製令流水號",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 89.4453125,
+              "widthComment": 67,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "34c0afcc-4657-4477-a8b9-8014e37779b3"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 1146.8934,
+          "top": 1158.8015,
+          "zIndex": 181,
+          "widthName": 76.41357421875,
+          "widthComment": 60,
+          "color": "#FEFFAA"
+        },
+        "visible": true,
+        "id": "61c98f58-7b43-4fc7-86d6-fdf25cfbedaf"
       }
     ],
     "indexes": []
@@ -1386,17 +1765,17 @@
           "columnIds": [
             "d7db1cc4-f58d-4be5-8bf6-3af34cfe5966"
           ],
-          "x": 183.006103515625,
-          "y": 422.9988,
-          "direction": "bottom"
+          "x": 365.88280703125,
+          "y": 1276.1921,
+          "direction": "right"
         },
         "end": {
           "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
           "columnIds": [
             "7b93cb9b-d842-435c-8e8d-e6fdafe8b53e"
           ],
-          "x": 345.1869,
-          "y": 503.9903,
+          "x": 486.9866,
+          "y": 1278.5838,
           "direction": "left"
         },
         "constraintName": "fk_accounts_to_sales_info",
@@ -1412,18 +1791,18 @@
           "columnIds": [
             "191d2af5-77d8-4ef8-ad21-c779edc51e89"
           ],
-          "x": 491.032823046875,
-          "y": 291.479,
-          "direction": "bottom"
+          "x": 829.2465,
+          "y": 1277.4455,
+          "direction": "left"
         },
         "end": {
           "tableId": "1c5ded96-8dbc-42be-b5f0-4ed2fa243d3e",
           "columnIds": [
             "70e6f369-80c5-45cf-9279-72925e0628c0"
           ],
-          "x": 417.63611875,
-          "y": 356.7403,
-          "direction": "top"
+          "x": 776.783475,
+          "y": 1278.5838,
+          "direction": "right"
         },
         "constraintName": "fk_customer_to_sales_info",
         "visible": true,
@@ -1438,8 +1817,8 @@
           "columnIds": [
             "590934d3-1df0-498e-99dd-53b766377f90"
           ],
-          "x": 562.5345562499999,
-          "y": 356.7403,
+          "x": 559.43581875,
+          "y": 1131.3338,
           "direction": "top"
         },
         "end": {
@@ -1447,9 +1826,9 @@
           "columnIds": [
             "dade0031-15f5-4b4f-85e5-5d6b9616a3d9"
           ],
-          "x": 676.1475,
-          "y": 146.7492,
-          "direction": "left"
+          "x": 791.230411328125,
+          "y": 1017.4979,
+          "direction": "bottom"
         },
         "constraintName": "fk_sales_info_to_file",
         "visible": true,
@@ -1464,22 +1843,48 @@
           "columnIds": [
             "590934d3-1df0-498e-99dd-53b766377f90"
           ],
-          "x": 634.9837749999999,
-          "y": 503.9903,
-          "direction": "right"
+          "x": 704.33425625,
+          "y": 1131.3338,
+          "direction": "top"
         },
         "end": {
           "tableId": "8cc68e33-2c09-42eb-bb95-f2f0ffd45fdd",
           "columnIds": [
             "4f1ac7a9-6566-4bfb-96f6-634be8cc41c9"
           ],
-          "x": 691.4806,
-          "y": 470.8694,
-          "direction": "left"
+          "x": 471.13064296875,
+          "y": 886.0933,
+          "direction": "right"
         },
         "constraintName": "fk_sales_info_to_goods_detail",
         "visible": true,
         "id": "b9e52f9a-5e21-47a1-b6af-179671e8a060"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "46d37798-167c-4679-9d49-aba71122bd73",
+          "columnIds": [
+            "10baf785-14ea-413a-8421-49a2f1204d1e"
+          ],
+          "x": 1288.73191328125,
+          "y": 994.5126,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "61c98f58-7b43-4fc7-86d6-fdf25cfbedaf",
+          "columnIds": [
+            "34c0afcc-4657-4477-a8b9-8014e37779b3"
+          ],
+          "x": 1288.774259375,
+          "y": 1158.8015,
+          "direction": "top"
+        },
+        "constraintName": "fk_manu_order_to_raw_material",
+        "visible": true,
+        "id": "d7a0727f-7fcd-4321-a528-2d247c657fc7"
       }
     ]
   }

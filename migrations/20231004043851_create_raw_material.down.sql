@@ -1,0 +1,1 @@
+drop TABLE raw_material;
