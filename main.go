@@ -49,5 +49,5 @@ func main() {
 	route = routerLogin.GetRoute(route, db)
 	route = routeAccount.GetRoute(route, db)
 	route = routerManuOrder.GetRoute(route, db)
-	log.Fatal(http.ListenAndServe("192.168.50.254:8090", route))
+	log.Fatal(http.ListenAndServe("127.0.0.1:8090", route))
 }
