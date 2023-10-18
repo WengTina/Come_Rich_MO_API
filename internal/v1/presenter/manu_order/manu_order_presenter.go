@@ -114,6 +114,7 @@ func (p *presenter) GetByID(ctx *gin.Context) {
 // @Router /v1.0/authority/manu_order/{manuOrderID} [delete]
 func (p *presenter) Delete(ctx *gin.Context) {
 	// Todo 將UUID改成登入的使用者
+	
 	manuOrderID := ctx.Param("manuOrderID")
 	input := &manu_order.Updated{}
 	input.ManuOrderID = manuOrderID
